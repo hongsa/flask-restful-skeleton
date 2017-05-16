@@ -1,0 +1,8 @@
+Flask
+Flask-Migrate
+Flask-SQLAlchemy
+MySQL-python
+flask-admin
+flask-restful
+PyJWT
+pytz

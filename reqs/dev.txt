@@ -1,0 +1,6 @@
+-r common.txt
+Flask-Script
+flask-cors
+flask-debugtoolbar
+flake8
+autopep8
