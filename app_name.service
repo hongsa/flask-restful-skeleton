@@ -1,0 +1,14 @@
+#cd /etc/systemd/system
+[Unit]
+Description=uWSGI instance to serve baram
+After=network.target
+
+[Service]
+User=root
+Group=www-data
+WorkingDirectory=/var/www/baram-backend
+Environment="PATH=/var/www/baram-backend/venv/bin"
+ExecStart=/var/www/baram-backend/venv/bin/uwsgi --ini /var/www/baram-backend/baram.ini
+
+[Install]
+WantedBy=multi-user.target
