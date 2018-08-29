@@ -1,2 +1,2 @@
 -r common.txt
-uWSGI
+uWSGI==2.0.15
