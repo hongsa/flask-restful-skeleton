@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from apps import api
-from resources.main import UserSignUp, User
+from .resources.main import UserSignUp, User
 
 # USER API
 # 1. signup : POST
